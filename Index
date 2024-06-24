@@ -1,0 +1,374 @@
+<!doctype html>
+<head>
+    <title>Design</title>
+    <style>
+        #d1 {
+            background-image:url("img/pictureone.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            height:750px;
+            opacity:0.8;
+        }
+        #d1 h1{
+            color:white;
+            margin-left:15px;
+        }
+        #d1 h2 {
+            color:white;
+            text-align:center;
+            position:relative;
+            right:25px;
+            font-size:15px;
+            bottom:45px;
+
+        }
+        #d1 h3 {
+            color:white;
+            text-align:center;
+            position:relative;
+            font-size:15px;
+            left:65px;
+            bottom:77px;
+        }
+        #d1 h4{
+            color:white;
+            text-align:center;
+            position:relative;
+            font-size:15px;
+            left:150px;
+            bottom:115px;
+
+        }
+        #d1 h5 {
+            color:white;
+            text-align:center;
+            position:relative;
+            font-size:15px;
+            left:253px;
+            bottom:157px;
+
+        }
+        #d1 h6 {
+            color:white;
+            text-align:center;
+            position:relative;
+            font-size:15px;
+            left:350px;
+            bottom:208px;
+
+        }
+        #right h1{
+            color:white;
+            text-align:center;
+            font-size:15px;
+            position:relative;
+            left:433px;
+            bottom:260px;
+        }
+        #right h2 {
+            color:white;
+            font-size:15px;
+            position:relative;
+            left:538px;
+            bottom:289px;
+        }
+        #right h3 {
+            color:white;
+            font-size:15px;
+            position:relative;
+            left:640px;
+            bottom:320px;
+        }
+        #left h1 {
+            color:white;
+            font-size:35px;
+            text-align:center;
+            position:relative;
+            bottom:150px;
+            border-radius:20px;
+            background-color:black;
+            height:38px;
+            width:410px;
+            left:540px;
+        }
+        #left h2 {
+            color:white;
+            font-size:40px;
+            position:relative;
+            bottom:90px;
+            right:10px;
+        }
+        #left h3{
+            color:white;
+            font-size:30px;
+            position:relative;
+            bottom:95px;
+            left:10px;
+        }
+        #zero h1{
+            color:black;
+            margin-top:280px;
+            text-align:center;
+        }
+        #zero h2{
+            color:black;
+            position:relative;
+            top:20px;
+            font-size:25px;
+            right:55px;
+        }
+        #zero h3 {
+            color:rgb(216, 5, 202);
+            font-size:25px;
+            position:relative;
+            bottom:34px;
+            left:70px;
+        }
+        #zero h4{
+            color:black;
+            font-size:20px;
+            text-align:center;
+            bottom:20px;
+            position:relative;
+            left:30px;
+
+        }
+        #design h1{
+            font-size:15px;
+            position:relative;
+            right:430px;
+            bottom:140px;
+        }
+        #design h2{
+            font-size:13px;
+            position:relative;
+            right:460px;
+            bottom:180px;
+            color:black;
+        }
+        #design h3{
+            font-size:13px;
+            color:black;
+            position:relative;
+            top:30px;
+            text-align:left;
+            right:60px;
+            left:140px;
+        }
+        #design h4{
+            font-size:13px;
+            color:black;
+            position:relative;
+            top:40px;
+            text-align:left;
+            left:130px;
+        }
+        #design h5 {
+            font-size:17px;
+            color:black;
+            position:relative;
+            bottom:290px;
+        }
+        #design h6 {
+            font-size:18;
+            color:rgb(216, 5, 202);
+
+        }
+        #projectone {
+            background-image:url("img/picturetwo.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            height:600px;
+            opacity:1;
+            
+        }
+        #projectone h1{
+            color:red;
+            font-size:40px;
+            text-align:center;
+            position:relative;
+            top:190px;
+
+        }
+        #projectone h2{
+            color:red;
+            font-size:26px;
+            position:relative;
+            top:200px;
+        }
+        #projectone h3{
+            color:white;
+            font-size:30px;
+            position:relative;
+            top:300px;
+            margin-left:600px;
+            border-radius:30px;
+            background-color:black;
+            width:200px;
+        }
+        #projecttwo h1{
+            color:black;
+            font-size:45px;
+            position:relative;
+            top:100px;
+        }
+        #projecttwo h2{
+            color:grey;
+            font-size:15px;
+            position:relative;
+            top:110px;
+            right:680px;
+        }
+        #projecttwo h3 {
+            color:grey;
+            font-size:10px;
+            position:relative;
+            top:110px;
+            margin-right:1400px;
+            left:20px;
+
+        }
+        #projecttwo h4{
+            color:grey;
+            font-size:10px;
+            position:relative;
+            top:115px;
+            margin-right:1590px;
+            left:25px;
+        }
+        #projectthree h1{
+            color:black;
+            font-size:25px;
+            margin-left:350px;
+            position:relative;
+            bottom:90px;
+        }
+        #order1 {
+            color:black;
+            font-size:15px;
+            margin-left:350px;
+            position:relative;
+            bottom:80px;
+        }
+        #projectfour h1{
+            color:black;
+            font-size:25px;
+            margin-left:640px;
+            position:relative;
+            bottom:240px;
+        }
+        #order2 {
+            color:black;
+            font-size:15px;
+            margin-left:620px;
+            position:relative;
+            bottom:230px;
+        }
+        #projectfive h1{
+            color:black;
+            font-size:25px;
+            position:relative;
+            text-align:end;
+            right:280px;
+            bottom:393px;
+        }
+        #projectfive h2{
+            color:black;
+            font-size:15px;
+            position:relative;
+            left:430px;
+            bottom:380px;
+        }
+        #left button{
+            color:black;
+            background-color:white;
+            position:relative;
+            left:660px;
+            border-radius:20px;
+            font-size:20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="demo12.html" validate>
+    <div id="d1">
+        <h1>SHIVA</h1>
+        <h2>Home</h2>
+        <h3>About</h3>
+        <h4>Services</h4>
+        <h5>Portfolio</h5>
+        <h6>Team</h6>
+    <div id="right">
+        <h1>Blog</h1>
+        <h2>Dropdown</h2>
+        <h3>Contact</h3>
+    </div>
+    <div id="left">
+        <h1>WELCOME TO TEMPO</h1>
+        <h2>WE'RE CREATIVE AGENCY</h2>
+        <h3>WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</h3>
+        <button>GET STARTED</button>
+    </div>
+    
+
+    <div id="zero">
+        <h1>ABOUT</h1>
+        <h2>Learn More</h2>
+        <h3>About Us</h3>
+        <h4>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita<br>at voluptas atque vitae autem</h4>
+        <div id="design">
+          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor<br>incididunt ut labore et dolore magna aliqua.</h1>
+          <h2>Ullamco laboris nisi ut aliquip ex ea commodo consequat</h2>
+          <h3>Duis aute irure dolor in reprehenderit in voluptate velit</h3>
+          <h4>Ullamco laboris nisi ut aliquip ex ea commodo consequat</h4>
+          <h5>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit,sed do eiusmod tempoUllamco laboris nisi ut aliquip ex <br>ea commodo consequatDuis aute irure dolor in reprehenderit in voluptate velit</h5>
+          <h6>Learn More</h6>
+        </div>
+    </div>
+    <div id="projectone">
+          <h1>Call To Action</h1>
+          <h2>Duis aute irure dolor in reprehenderitin voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat non<br> proident sunt in culpaqui offical deserunt mollit anim id est laborum</h2>
+          <h3>Call To Action</h3>
+    </div>
+
+
+    <div id="projecttwo">
+        <h1>Tempo</h1>
+        <h2>A108 Adam Street<br>New York,NY 535022<br>United States</h2>
+        <h3>Phone:+1 5589 55488 55</h3>
+        <h4>Email:info@example.com</h4>
+
+    </div>
+
+    <div id="projectthree">
+        <h1>Useful Links</h1>
+        <ol id="order1">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Terms Of Services</li>
+            <li>Privacy Policy</li>
+        </ol>
+    </div>
+
+    <div id="projectfour">
+        <h1>Our Services</h1>
+        <ol id="order2">
+            <li>Web design</li>
+            <li>Web development</li>
+            <li>Product Management</li>
+            <li>Marketing</li>
+            <li>Graphic Design</li>
+
+        </ol>
+    </div>
+
+
+    <div id="projectfive">
+        <h1>Join Our Newsletter</h1>
+        <h2>Tamen quem nulla quae legam multos aute sint culpa<br>legam noster magna</h2>
+
+    </div>
+</form>
+</body>
