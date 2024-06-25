@@ -30,10 +30,6 @@ create a visually appealing and responsive website that effectively displays pro
 2. Navigate to the project directory: `cd your-repo-name`
 3. Open `index.html` in your preferred web browser to view the website.
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Feel free to explore the project and provide any feedback. Contributions are welcome!
